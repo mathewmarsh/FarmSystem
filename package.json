@@ -1,0 +1,15 @@
+{
+  "name": "clipboard-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Clipboard Prototype -- first playable slice of the minor-league manager roguelite.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "play": "node dist/game.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^22.5.0"
+  }
+}
